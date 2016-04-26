@@ -1,4 +1,4 @@
 if (window.width > 479) {
- $('head').append
+ $('body').append
  ('<script src="js/wow.min.js"></script>');
 }
