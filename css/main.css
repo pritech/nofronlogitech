@@ -2529,6 +2529,7 @@ shortcodes page css
 
 
 
-
+/*fontawesome */
+@media screen and (-webkit-min-device-pixel-ratio:0) { @font-face { font-family:'FontAwesome'; src: url('fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg'); } }
 
 
