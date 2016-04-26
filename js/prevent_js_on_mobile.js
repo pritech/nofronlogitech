@@ -1,16 +1,4 @@
-function isMobile() {
-return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-}
-
-if (!isMobile()) {function isMobile() {
-return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-}
-
-if (!isMobile()) {
-//place script you don't want to run on mobile here
-respond.min.js;
-wow.min.js;
-
-}
-
+if (window.width > 479) {
+ $('head').append
+ ('<script src="js/wow.min.js"></script>');
 }
